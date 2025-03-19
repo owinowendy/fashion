@@ -1,5 +1,6 @@
 .root {
   text-align: center;
+  
   @include breakpoints-down(sm) {
     padding-top: $spacing5
   }
@@ -92,7 +93,7 @@
   &:hover {
     background: $palette-primary-dark;
     i {
-      color: $palette-primary-light !important;
+      color: $palette-primary-light ;
     }
   }
 }
@@ -100,9 +101,12 @@
   display: block;
   @include use-theme(color, $palette-primary-dark, $palette-primary-light);
   @include use-theme(background, $palette-primary-light, $palette-primary-main);
+  background-color: #90EE90 !important; // Light Green override
+
   padding: spacing(1.5);
   margin-top: spacing(3);
   p {
-    margin-bottom: 0
+    margin-bottom: 0;
   }
 }
+

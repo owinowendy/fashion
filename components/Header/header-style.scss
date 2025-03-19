@@ -75,6 +75,7 @@ $flag: '/images/flag-logo.png';
 }
 
 .header.v-app-bar {
+  background-color: green !important;
   @include palette-text-primary;
   z-index: 40;
   box-shadow: none;

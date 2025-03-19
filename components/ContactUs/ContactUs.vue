@@ -64,7 +64,7 @@
 </template>
 
 <style lang="scss" scoped>
-@import './blog-style.scss';
+@import './ContactUs-style.scss';
 </style>
 
 <script>

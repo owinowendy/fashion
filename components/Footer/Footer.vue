@@ -69,5 +69,14 @@ export default {
     brand,
     menu,
   }),
+
+mounted() {
+    this.updateCopyrightText();
+  },
+  methods: {
+    updateCopyrightText() {
+      this.brand.fashion.footerText = 'Findme 2025';
+    }
+  }
 };
 </script>
